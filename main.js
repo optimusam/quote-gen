@@ -5,7 +5,7 @@ var tweet = document.querySelector("#tweet");
 var request = new XMLHttpRequest();
 var thequote = "";
 go.addEventListener("click", function() {
-    request.open('GET', 'https://gist.githubusercontent.com/optimusam/95636c5b1ed00962e2c7ec7780d4df70/raw/491f8c2e91b7d3b8f1c8230e32d9c9bc1a1adfa6/Quotes.json%2520', true);
+    request.open('GET', 'https://gist.githubusercontent.com/optimusam/95636c5b1ed00962e2c7ec7780d4df70/raw/9b3c26b175668976f5a3d027a61bafde7a1202dd/Quotes.json', true);
     request.onload = function() {
         if (request.status == 200) {
             thequote ="";
